@@ -96,6 +96,21 @@ It is a *lookup foundation*, not a reasoning system. Disambiguation must be done
 *If you are interested in how these challenges are addressed in practice, take a look at the **sitrepc2** project. Though still under construction, most of the groundwork has already been laid. At the NLP level (referred to as the **LSS layer** — Lexical-Syntactic-Semantic), the pipeline uses the **spaCy**, **coreferee**, and **holmes-extractor** libraries and their associated models to handle the heavy lifting of parsing and interpreting text. This includes identifying real events, determining which locations are associated with those events, and distinguishing between true geo-referencing and mere contextual mentions.*
 
 
+## Contributing
+
+Contributions are welcome — especially improvements to alias coverage, transliterations, and dataset corrections.
+
+If you would like to contribute:
+
+- **Pull Requests:**  
+  Feel free to submit a pull request with proposed changes. Please include a brief explanation of the source or rationale for any new aliases or corrections.
+
+- **Contact:**  
+  If you prefer to discuss a change before submitting it, you can reach me directly via GitHub (issues or discussions) or by opening a draft pull request with a note.
+
+Because this repository serves as a canonical lookup table used by automated NLP pipelines, all contributions may be reviewed for consistency, determinism, and alignment with OSINT best practices before merging.
+
+
 ## 🧭 Summary
 
 `warreport_ua_settlement_aliases_lookup.csv` is a **purpose-built, OSINT-focused settlement lookup table** for Ukraine, enabling reliable multilingual geolocation normalization.
