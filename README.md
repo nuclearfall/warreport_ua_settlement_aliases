@@ -98,7 +98,7 @@ It is a *lookup foundation*, not a reasoning system. Disambiguation must be done
 
 ## Contributing
 
-Contributions are welcome — especially improvements to alias coverage, transliterations, and dataset corrections.
+Contributions are welcome — especially improvements to alias coverage, transliterations, and dataset corrections. Though the gazetteer's primary focus has been and will continue to be those oblasts in which territory is currently being occupied, I'm not opposed to adding locations from other oblasts.
 
 If you would like to contribute:
 
@@ -107,6 +107,8 @@ If you would like to contribute:
 
 - **Contact:**  
   If you prefer to discuss a change before submitting it, you can reach me directly via GitHub (issues or discussions) or by opening a draft pull request with a note.
+
+- If you are submitting a new entry **please make a best effort to locate both an OSM ID and Wikidata QID**. While I realize not every settlement reported on in the war has these, searching for them first will ensure that the file stays clear of stray duplicates.
 
 Because this repository serves as a canonical lookup table used by automated NLP pipelines, all contributions may be reviewed for consistency, determinism, and alignment with OSINT best practices before merging.
 
